@@ -3,7 +3,7 @@ services:
     php-apache-environment:
         container_name: php-apache
         build:
-            context: ./app
+            context: ./
             dockerfile: Dockerfile
         depends_on:
             - db
