@@ -8,7 +8,8 @@ services:
         depends_on:
             - db
         volumes:
-            - ./app:/var/www/html/
+            - ./app:/var/www/php
+            - ./apache/default.conf:/etc/apache2/sites-enabled/000-default.conf
         ports:
             - 8000:80
             
