@@ -3,6 +3,9 @@
 ### Rodando o servidor
 sudo docker compose up --build
 
+## Entre no terminal
+sudo docker exec -it php-apache bash
+
 ### Criando projeto Laravel
 composer create-project laravel/laravel .
 
