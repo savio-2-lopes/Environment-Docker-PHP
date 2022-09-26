@@ -10,4 +10,4 @@ sudo docker exec -it php-apache bash
 composer create-project laravel/laravel .
 
 ### Ajustando erros de permissão
-chmod -R 777 /var/www/php/
+chmod -R 777 /var/www/php/# Laravel-Project-Manager
