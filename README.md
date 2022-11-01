@@ -1,13 +1,15 @@
 # Ambiente Docker PHP Apache MySQL
 
+
+
 ### Rodando o servidor
-sudo docker compose up --build
+docker compose up --build
 
 ## Entre no terminal
-sudo docker exec -it php-apache bash
+docker exec -it php-apache bash
 
 ### Criando projeto Laravel
 composer create-project laravel/laravel .
 
 ### Ajustando erros de permissão
-chmod -R 777 /var/www/php/# Laravel-Project-Manager
+chmod -R 777 /var/www/php/
